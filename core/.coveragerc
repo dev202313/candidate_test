@@ -1,0 +1,31 @@
+[run]
+omit =
+    .editorconfig
+    .gitignore
+    .pre-commit-config.yaml
+    main.py
+    manage.py
+    pyproject.toml
+    *conftest.py*
+    *tests*
+    *settings.py*
+    */migrations/*
+    *__init__.py
+    __pycache__
+    .pytest_cache
+
+[report]
+omit =
+    .editorconfig
+    .gitignore
+    .pre-commit-config.yaml
+    main.py
+    manage.py
+    pyproject.toml
+    *conftest.py*
+    *tests*
+    *settings.py*
+    */migrations/*
+    *__init__.py
+    __pycache__
+    .pytest_cache

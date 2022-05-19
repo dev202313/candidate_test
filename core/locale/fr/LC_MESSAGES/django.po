@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-18 11:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: core/settings.py:124
+msgid "English"
+msgstr ""
+
+#: core/settings.py:125
+msgid "French"
+msgstr ""
+
+#: core/settings.py:126
+msgid "Arabic"
+msgstr ""
+
+#: video/models.py:17
+msgid "Draft"
+msgstr ""
+
+#: video/models.py:18
+msgid "Published"
+msgstr ""
+
+#: video/models.py:24
+msgid "Title"
+msgstr ""
+
+#: video/models.py:25
+msgid "Slug"
+msgstr ""
+
+#: video/models.py:27
+msgid "Cover Photo"
+msgstr ""
+
+#: video/models.py:30
+msgid "Image cropping"
+msgstr ""
+
+#: video/models.py:33
+msgid "Extract"
+msgstr ""
+
+#: video/models.py:37
+msgid "Small extract of your video"
+msgstr ""
+
+#: video/models.py:39
+msgid "Contact"
+msgstr ""
+
+#: video/models.py:40
+msgid "Date published"
+msgstr ""
+
+#: video/models.py:41
+msgid "Last modified"
+msgstr ""
+
+#: video/models.py:47
+msgid "Post status"
+msgstr ""
+
+#: video/models.py:49
+msgid "Page views"
+msgstr ""
+
+#: video/models.py:52
+msgid "Blog post"
+msgstr ""
+
+#: video/models.py:53
+msgid "Blog posts"
+msgstr ""
