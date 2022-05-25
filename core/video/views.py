@@ -13,7 +13,8 @@ from .models import Post
 def post_list(request: HttpRequest) -> HttpResponse:
     """Returns list of all posts."""
     
-    posts=None
+    # see Post.Meta for ordering
+    posts=Post.objects.all()
 
     context = {
         "posts": posts
@@ -26,7 +27,7 @@ def post_detail(request: HttpRequest, slug:str) -> HttpResponse:
     """Returns post detail page."""
 
     try:
-        post=None
+        post=Post.objects.get(slug=slug)
     except Post.DoesNotExist:
         return HttpResponseNotFound(_("This element does not exist."))
 
