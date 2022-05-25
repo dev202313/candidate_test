@@ -28,6 +28,8 @@ def post_detail(request: HttpRequest, slug:str) -> HttpResponse:
 
     try:
         post=Post.objects.get(slug=slug)
+        post.page_views += 1
+        post.save()
     except Post.DoesNotExist:
         return HttpResponseNotFound(_("This element does not exist."))
 
