@@ -24,6 +24,7 @@ def post_list(request: HttpRequest) -> HttpResponse:
 
 def post_detail(request: HttpRequest, slug:str) -> HttpResponse:
     """Returns post detail page."""
+
     try:
         post=None
     except Post.DoesNotExist:
