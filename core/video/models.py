@@ -37,8 +37,8 @@ class Post(models.Model):
         help_text=_("Small extract of your video"),
     )
     content = RichTextField(verbose_name=_("Contact"), blank=True, null=True)
-    date_posted = models.DateTimeField(verbose_name=_("Date published"), auto_now=True)
-    last_modified = models.DateTimeField(verbose_name=_("Last modified"), auto_now_add=True)
+    date_posted = models.DateTimeField(verbose_name=_("Date published"), auto_now_add=True)
+    last_modified = models.DateTimeField(verbose_name=_("Last modified"), auto_now=True)
     author = models.ForeignKey(
         User, on_delete=models.CASCADE, blank=True, editable=False, related_name="posts", verbose_name=('Author')
     )
